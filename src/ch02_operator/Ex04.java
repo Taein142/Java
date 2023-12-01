@@ -8,7 +8,7 @@ public class Ex04 {
 		System.out.println(true && true);
 		System.out.println(true && false);
 		System.out.println(true || true);
-//		true 또는 true 는 값이 이상해 false가 되엉
+		
 		boolean bool1 = true;
 		boolean bool2 = false;
 		boolean bool3 = true;
@@ -31,7 +31,7 @@ public class Ex04 {
 		boolean result2 = num1 != num2;
 		boolean result3 = result1 && result2;
 		System.out.println(result3);
-		
+	
 		boolean result4 = (num1 > num2) && (num1 != num2);
 		System.out.println(result4);
 	}
