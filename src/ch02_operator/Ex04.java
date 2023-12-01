@@ -32,6 +32,8 @@ public class Ex04 {
 		boolean result3 = result1 && result2;
 		System.out.println(result3);
 		
+		boolean result4 = (num1 > num2) && (num1 != num2);
+		System.out.println(result4);
 	}
 
 }
