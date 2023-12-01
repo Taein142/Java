@@ -20,5 +20,5 @@ public class Ex05 {
 //	                    14   13   12	
 		System.out.println(result1);
 	}
-
+//	증감연산자 잘 알아두기 어려웡
 }
