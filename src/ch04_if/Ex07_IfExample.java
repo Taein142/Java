@@ -20,14 +20,14 @@ public class Ex07_IfExample {
 			System.out.print("점수를 입력해주세요 : ");
 			int score = scanner.nextInt();
 			
-			if(year <= 3 && year > 0) {
-				if(score >= 60) {
+			if(year == 4) {
+				if(score >= 70){
 					System.out.println("합격입니다.");
 				}else {
 					System.out.println("불합격입니다.");
 				}
-			}else if(year == 4) {
-				if(score >= 70){
+			}else {
+				if(score >= 60){
 					System.out.println("합격입니다.");
 				}else {
 					System.out.println("불합격입니다.");
