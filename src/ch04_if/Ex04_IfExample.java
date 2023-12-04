@@ -29,8 +29,7 @@ public class Ex04_IfExample {
 			}else {
 				grade = "F";
 			}
-			System.out.println(grade);
-		}
+		}System.out.println("당신의 학점은 " + grade + " 입니다.");
 
 	}
 
