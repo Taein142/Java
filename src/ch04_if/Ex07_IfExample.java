@@ -14,24 +14,27 @@ public class Ex07_IfExample {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("학년을 입력해주세요 : ");
 		int year = scanner.nextInt();
-		System.out.print("점수를 입력해주세요 : ");
-		int score = scanner.nextInt();
-		
-		
-		if(year <= 3) {
-			if(score >=60) {
-				System.out.println("합격입니다.");
-			}else {
-				System.out.println("불합격입니다.");
-			}
-		}else if(year == 4) {
-			if(score >= 70){
-				System.out.println("합격입니다.");
-			}else {
-				System.out.println("불합격입니다.");
-			}
-		}else {
+		if (year < 0 || year > 4) {
 			System.out.println("학년(year)을 다시 입력해주세요.(1~4까지)");
+		}else {
+			System.out.print("점수를 입력해주세요 : ");
+			int score = scanner.nextInt();
+			
+			if(year <= 3 && year > 0) {
+				if(score >= 60) {
+					System.out.println("합격입니다.");
+				}else {
+					System.out.println("불합격입니다.");
+				}
+			}else if(year == 4) {
+				if(score >= 70){
+					System.out.println("합격입니다.");
+				}else {
+					System.out.println("불합격입니다.");
+				}
+			}
 		}
+		
+		
 	}
 }
