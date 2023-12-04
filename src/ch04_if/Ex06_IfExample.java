@@ -9,8 +9,7 @@ public class Ex06_IfExample {
 //		3의 배수인지, 5의 배수인지 또는 3과 5의 공배수인지, 아무것도 아닌지를 출력
 		
 		Scanner scanner = new Scanner(System.in);
-		int num;
-		num = scanner.nextInt();
+		int num = scanner.nextInt();
 		
 		if(num%3 == 0 && num%5 == 0) {
 			System.out.println("num은 3과 5의 공배수이다.");
